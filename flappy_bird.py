@@ -413,7 +413,7 @@ def run(config_path):           #Pulling in the NEAT configs
     p.add_reporter(stats)
 
     # Run for up to 50 generations.
-    winner = p.run(eval_genomes, 50)     #Fitness generations based on survival
+    winner = p.run(eval_genomes, 100)     #Fitness generations based on survival
 
     # Show Final Stats
     print('\nBest genome:\n{!s}'.format(winner))
