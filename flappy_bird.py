@@ -374,7 +374,7 @@ def eval_genomes(genomes, config):      #Evaluation of Genomes or def main
             # Can add this line to give more reward for passing through a pipe (NOT REQUIRED)
             for genome in ge:                   #or "for g in ge"
                 genome.fitness += 5             #Increasing fitness of surviving birds
-            pipes.append(Pipe(480))             #Manual Pipe width.
+            pipes.append(Pipe(520))             #Manual Pipe width.
             #pipes.append(Pipe(WIN_WIDTH))      #Alternatively, Auto Pipe width.
 
         for r in rem:
